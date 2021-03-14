@@ -1,0 +1,39 @@
+header{
+    display: flex;   
+    background: rgba(0, 0, 0, 0.486);
+}
+header h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    margin-left: 40%;
+    width: 100%;
+    align-self: flex-end;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 0%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width:800px)
+{
+    nav{
+        margin-left: 40%;
+        position: relative;
+    }
+    nav ul li{
+        margin-left: 0%;
+        margin-right: 5%;
+    }

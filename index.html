@@ -4,102 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishwanath Pratap Singh</title>
-    <style>
-        body{
-            margin: 0;
-            background-color: #682d67;
-        }
-        .bg-area{
-            position: fixed;
-            left: -50%;
-            right: -50%;
-            top: 0;
-            bottom: 0;
-            animation: animate 5s ease-in-out infinite alternate;
-            background: linear-gradient(90deg, #a93563 50%, #2d276b);
-            opacity: .5;
-            z-index: -1;
-        }
-        .layer-2{
-            animation-direction: alternate-reverse;
-            animation-duration:3s;
-        }
-        .layer-3{
-            animation-duration: 5s;
-        }
-        .banner-text{
-            left: 50%;
-            position: fixed;
-            text-align: center;
-            top: 50%;
-            transform: translate(-50%,-50%);
-        }
-        .banner-text img{
-            border-radius: 100%;
-            height: 200px;
-        }
-        .banner-text h2{
-            font-family: Shrikhand;
-            font-size: 55px;
-            letter-spacing: 5px;
-            color: #fff;
-            margin: 0;
-        }
-        .banner-text h3{
-            font-size: 30px;
-            margin: 0;
-            font-family: cursive;
-            color: #fff;
-        }
-        @keyframes animate{
-            0%{
-                transform: translateX(-50%);
-            }
-            100%{
-                transform: translateX(50%);
-            }
-        }
-
-        .profiles{
-            display: flex;
-            justify-content: space-evenly;
-            background: black;
-            padding: 20px;
-        }
-        .profiles a{
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-        .profiles a:hover{
-            color: skyblue;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
+    <header>
+        <h2>Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="bg-area"></div>
     <div class="bg-area layer-2"></div>
     <div class="bg-area layer-3"></div>
+
     <div class="banner-text">
         <img src="images/image.jpeg">
         <h2>Vishwanath Pratap Singh</h2>
         <h3>Developer | Programmer</h3>
-    </div>
-    <div class="profiles">
-        <a href="https://twitter.com/vishnupsingh522">GitHub</a>
-        
-        <a href="https://twitter.com/vishnupsingh522">Stop Talk</a>
-        
-        <a href="https://twitter.com/vishnupsingh522">Linkedin</a>
+    
 
-        <a href="https://twitter.com/vishnupsingh522">twitter</a>
+    <!-- Profiles -->
+        <div class="profiles">
 
-        <a href="https://twitter.com/vishnupsingh522">Instagram</a>
+            <a href="https://github.com/vishnupsingh523" target="_blank"><img src="images/GitHub.png" alt="GitHub"></a>
 
-        
-        
-        <a href="https://twitter.com/vishnupsingh522">facebook</a>
+            <a href="https://www.linkedin.com/in/vishwanathpratapsingh/" target="_blank"><img src="images/linkdin.png" alt="Linkedin"></a>
+
+            <a href="https://www.youtube.com/channel/UCWIgUVwVccNThS9K_kYCldA"><img src="https://www.freeiconspng.com/uploads/youtube-icon-21.png" alt=""></a>
+
+            <a href="https://www.facebook.com/vishwanath.pratapsingh.5055" target="_blank"><img src="images/facebook.png"></a>
+            
+            <a href="https://www.stopstalk.com/user/profile/vishnupsingh523" target="_blank"><img src="https://www.stopstalk.com/static/images/stopstalk-logo.png" alt="Stop Talk"></a>
+            
+            <a href="https://twitter.com/vishnupsingh522" target="_blank"><img src="https://cdn.jim-nielsen.com/ios/512/twitter-2013-10-08.png" alt="Twitter"></a>
+
+            <a href="https://www.instagram.com/vishwanath1926/" target="_blank"><img src="https://image.freepik.com/free-vector/instagram-icon_1057-2227.jpg" alt="Instagram"></a>
+        </div>
     </div>
 </body>
 </html>
